@@ -47,7 +47,8 @@ tic;
 [matrixS5,matrixC5,return_label5]=syn500_2view(neighborNum,proximityOrder,alpha,beta,rho,mu,isSvd,viewWeight1,viewWeight2);
 tsyn=toc;
 
-tic;
-[matrixS6,matrixC6,return_label6]=CMU_PIE_2view(neighborNum,proximityOrder,alpha,beta,rho,mu,isSvd,viewWeight1,viewWeight2);
-tface=toc;
+% Please use function CMU_PIE_2view after unzip the dataset CMU-PIE.
+% tic;
+% [matrixS6,matrixC6,return_label6]=CMU_PIE_2view(neighborNum,proximityOrder,alpha,beta,rho,mu,isSvd,viewWeight1,viewWeight2);
+% tface=toc;
 
